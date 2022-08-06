@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #0e1538;
+    overflow: hidden;
+}
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    height: 200px;
+    width: 600px;
+    /* border: 1px solid red; */
+    background-color: rgb(66, 65, 65);
+    border-radius: 5px;
+    color: white;
+}
+.ampm{
+    float: right;
+}
+.time,.date-day{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.hours, .colons, .minutes, .seconds{
+    height: 90px;
+    width: 90px;
+    /* background-color: white; */
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.month,.day,.date{
+    height: 20px;
+    width: 70px;
+    /* background-color: aliceblue; */
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
